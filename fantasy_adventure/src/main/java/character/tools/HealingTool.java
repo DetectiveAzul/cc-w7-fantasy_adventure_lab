@@ -1,10 +1,12 @@
 package character.tools;
 
-public abstract class HealingTool {
-    String name;
-    int recovery;
-    int range;
-    int durability;
+import character.player.Equipment;
+
+public abstract class HealingTool implements Equipment {
+    protected String name;
+    private int recovery;
+    private int range;
+    private int durability;
 
     public HealingTool(String name, int recovery, int range, int durability) {
         this.name = name;

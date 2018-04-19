@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeaponTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeaponTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WeaponTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -63,6 +63,54 @@
                 <element signature="e#708#709#0" expanded="true" />
                 <element signature="e#728#729#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Equipment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/character/player/Equipment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealingTool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/character/tools/HealingTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealingPotion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/character/tools/HealingPotion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="3" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealingStaff.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/character/tools/HealingStaff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -407,6 +455,9 @@
         <option value="$PROJECT_DIR$/src/main/java/character/weapon/Sword.java" />
         <option value="$PROJECT_DIR$/src/main/java/character/weapon/Hammer.java" />
         <option value="$PROJECT_DIR$/src/test/java/WeaponTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/character/tools/HealingTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/character/tools/HealingPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/character/tools/HealingStaff.java" />
       </list>
     </option>
   </component>
@@ -481,9 +532,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="character" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="fighter" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FantasyAdventureLab" type="b2602c69:ProjectViewProjectNode" />
@@ -499,13 +548,6 @@
               <item name="fantasy_adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="FantasyAdventureLab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantasy_adventure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -632,6 +674,9 @@
       <configuration name="All in FantasyAdventureLab_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_FantasyAdventureLab_test - 2018.04.19 at 12h 03m 37s.xml">
+      <configuration name="All in FantasyAdventureLab_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyAdventureLab_test - 2018.04.19 at 12h 12m 32s.xml">
       <configuration name="All in FantasyAdventureLab_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -785,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/character/player/Equipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -851,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/character/weapon/Axe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WeaponTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -871,6 +902,53 @@
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#728#729#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/character/player/Equipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/character/weapon/Axe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/character/tools/HealingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/character/tools/HealingPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="3" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/character/tools/HealingStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
