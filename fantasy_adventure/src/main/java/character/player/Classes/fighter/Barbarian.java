@@ -2,10 +2,11 @@ package character.player.Classes.fighter;
 
 import character.player.Equipment;
 import character.player.Player;
+import character.weapon.Weapon;
 
 public class Barbarian extends Player implements Fighter {
-    public Barbarian(String name, String gender, int age, int healthPoints, int powerPoints, Equipment equipment, int totalTreasureValue) {
-        super(name, gender, age, healthPoints, powerPoints, equipment, totalTreasureValue);
+    public Barbarian(String name, String gender, int age, int healthPoints, int powerPoints, Weapon weapon, int totalTreasureValue) {
+        super(name, gender, age, healthPoints, powerPoints, weapon, totalTreasureValue);
     }
 
     public String swingWeapon() {
@@ -17,7 +18,7 @@ public class Barbarian extends Player implements Fighter {
     public String charge() {
         return "You jump fiercely towards your enemy";
     }
-    public void changeWeapon(Equipment equipment) {
-        setEquipment(equipment);
+    public void changeWeapon(Weapon weapon) {
+        setEquipment(weapon);
     }
 }
